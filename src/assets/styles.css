@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+body {
+    margin: 0 auto;
+    min-width: 425px;
+    background-color: #35495e;
+    background-image: url('../assets/bg.jpg');
+}
+
+a {
+    text-decoration: none;
+}
+
+::selection {
+    background: transparent #42b883, 0.5;
+}
