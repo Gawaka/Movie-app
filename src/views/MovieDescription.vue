@@ -31,7 +31,7 @@ export default {
         const movie = ref({});
         const route = useRoute();
         onBeforeMount(() => {
-            fetch(`http://www.omdbapi.com/?apikey=${env.apiKey}&i=${route.params.id}&plot=full`)
+            fetch(`https://www.omdbapi.com/?apikey=${env.apiKey}&i=${route.params.id}&plot=full`)
             .then(response => response.json())
             .then(data => {
                 movie.value = data;
